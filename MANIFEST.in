@@ -1,3 +1,2 @@
-include pyclothoids\src\Submodules\Clothoids\src\*.hh 
-include pyclothoids\src\Submodules\Clothoids\submodules\quarticRootsFlocke\src\*.hh
-include pyclothoids\src\Submodules\Clothoids\src\*.hxx
+recursive-include pyclothoids/src/Submodules/Clothoids/src *.cc *.hh *.hxx
+recursive-include pyclothoids/src/Submodules/Clothoids/submodules/quarticRootsFlocke/src *.cc *.hh
